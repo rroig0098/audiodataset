@@ -95,5 +95,5 @@ fig, ax = plt.subplots(nrows=1, ncols=1, figsize=(20, 4))
 plt.plot(output, color="red")
 ax.set_xlim((0, len(output)))
 plt.show()
-# play back a sample of the song
+
 IPython.display.Audio(data=output, rate=44100)
